@@ -1,0 +1,44 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 5%, rgba(238, 130, 238, 0) 100%);
+}
+
+.navbar__logo{
+    color: #ffffff;
+    font-family: Lancelot;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    }
+
+.navbar__links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
+
+.navbar__links a{
+    color: #ffffff;
+    font-family: Lancelot;
+    font-size: 25px;
+    font-weight: 200;
+    line-height: normal;
+    text-decoration: none;
+}
+.navbar__right{
+    padding: 10px 20px;
+    border: #ffffff 1px solid;
+}
+.navbar__right a{
+    color: #ffffff;
+    font-family: Lancelot;
+    font-size: 25px;
+    font-weight: 200;
+    line-height: normal;
+    text-decoration: none;
+}

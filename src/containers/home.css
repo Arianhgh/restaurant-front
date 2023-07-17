@@ -1,0 +1,110 @@
+.home_container{
+    background: url("https://i.pinimg.com/originals/c6/31/06/c63106997b89a6bff501b2503f91bf0c.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.home_container h1, h2{
+    font-family: "Cinzel", serif;
+}
+
+.hero__text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+}
+.hero__text h1{
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.hero__text img{
+    width: 25%;
+    position: relative;
+    top: 30px;
+    
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    margin: 20px 20px;
+    margin-bottom: 0px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(2px);
+}
+
+.heroinside{
+    width: 99%;
+    height: 93%;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(2px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.line{
+    width: 90%;
+    height: 1px;
+    background: #fff;
+    margin: 22px 0;
+   
+}
+
+.motto h1{
+    font-size: 50px;
+    color: #fff;
+    font-weight: 400;
+    margin: 0;
+}
+span{
+    background: linear-gradient(180deg, rgba(244, 187, 0, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.todayspecial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    height: 40%;
+}
+
+.todayspecial__text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 19%;
+    height: 100%;
+    border-radius: 50px;
+    backdrop-filter: blur(2px);
+    background: url("../assets/borderr2.png");
+    background-size: 340px 290px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.4);
+    
+}
+
+.todayspecial__text h1{
+    margin-bottom: 30px;
+    font-size: 25px;
+    background: linear-gradient(266deg, rgba(244, 187, 0, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
